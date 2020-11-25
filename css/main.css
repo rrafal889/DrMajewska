@@ -1,0 +1,301 @@
+html {
+    background-color:rgb(254, 254, 254);
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    border: 1px solid black;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+nav li {
+    float: left;
+    padding: 15px 0 20px 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid black;
+}
+
+.justify-content-center {
+    justify-content: center;
+    }
+
+.container {
+    box-sizing: border-box;
+}
+
+.main-area {
+    float: left;
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    text-align: justify;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+aside {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+aside img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(34, 38, 45);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+a:hover {
+    background-color: rgb(34, 38, 45);
+    color: rgb(254, 254, 254);
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*
+.main-area {
+    float: left;
+    width: 50%;
+}
+*/
+
+/*BEGIN clearfix*/
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:before,
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+/*END clearfix*/
+
+
+
+
+/*
+
+h1 {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+header img {
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+}
+
+/* Begin of Navigation */
+
+/*.site-nav {
+    max-width: 1200px;
+}*/
+    /*margin: 0;
+    padding: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+nav li {
+    display: block;
+    float: left;
+    position: relative;
+    left: -50%;
+    margin: 40px 10px 40px 0;
+    padding: 10px;
+}
+
+/*
+nav li {
+    display: block;
+    color: rgb(34, 38, 45);
+    float: left;
+    position: relative;
+    left: -50%;
+    margin-left: 0;
+    margin-right: 10px;
+    padding: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    color: rgb(34, 38, 45);
+    padding: 20px 20px;
+}
+
+nav a:hover {
+    background-color: rgb(34, 38, 45);
+    color: rgb(254, 254, 254);
+    transition-duration: 2s;
+}
+
+End of Navigation
+
+BEGIN of Content
+
+.container {
+    background-color: rgb(254, 254, 254);
+    height: 100%;
+    margin-top: 20px;
+    width: 1200px;
+}
+
+.main-content {
+    font-size: 75%;
+    margin: 0, auto;
+}
+
+
+body {
+    width: 1200px;
+    display: block;
+    margin: auto;
+    background-color: rgb(254, 254, 254);
+    color: rgb(34, 38, 45);
+}
+
+.main-content {
+    font-size: 75%;
+    float: left;
+    width: 60%;
+    font-size: 12px;
+    text-justify: center;
+    margin: 0, auto;
+}
+
+.main-foto {
+    float: left;
+    width: 20%;
+    font-size: 75%;
+}
+END of Content
+
+BEGIN footer
+
+footer {
+    font-size: 75%;
+    max-width: 1200px;
+    height: 50px;
+
+}
+
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+
+}
+
+footer li {
+    float: left;
+    position: relative;
+    left: -50%;
+    border-top: 1px solid black;
+    margin-top: 50px;
+}
+
+
+.fa {
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(34, 38, 45);
+}
+  
+.fa:hover {
+    background-color: rgb(34, 38, 45);
+    color: rgb(254, 254, 254);
+    transition-duration: 2s;
+  }
+
+
+END footer
+
+BEGIN clearfix
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:before,
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+END clearfix
+*/
